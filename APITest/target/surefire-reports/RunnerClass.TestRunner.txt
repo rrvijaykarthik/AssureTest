@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: RunnerClass.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 6.702 sec <<< FAILURE!
+Send and Validate GET API Request #2(Validate getAPI request)  Time elapsed: 0.269 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at TestCases.GetAPIRequestTest.validate_using_name_and_and_and(GetAPIRequestTest.java:27)
+	at ✽.Validate using Name "Carbon credits" and "true" and "Gallery" and "Good Positionincompany"(file:///C:/Users/rrvij/eclipse-workspace/APITest/Feature/ValidateGetAPI.feature:6)
+
+Send and Validate GET API Request #4(Validate getAPI request)  Time elapsed: 0.236 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at TestCases.GetAPIRequestTest.validate_using_name_and_and_and(GetAPIRequestTest.java:27)
+	at ✽.Validate using Name "Carbon debits" and "true" and "Gallery" and "Better position in category"(file:///C:/Users/rrvij/eclipse-workspace/APITest/Feature/ValidateGetAPI.feature:6)
+

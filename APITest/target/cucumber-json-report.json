@@ -1,0 +1,403 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-13T13:00:59.614Z",
+        "line": 9,
+        "name": "Send and Validate GET API Request",
+        "description": "",
+        "id": "validate-getapi-request;send-and-validate-get-api-request;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2379470300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Send GET API Request",
+            "match": {
+              "location": "TestCases.GetAPIRequestTest.send_get_api_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 176694300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check if the response is successfull",
+            "match": {
+              "location": "TestCases.GetAPIRequestTest.check_if_the_response_is_successfull()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate using Name \"Carbon credits\" and \"true\" and \"Gallery\" and \"Good position in category\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Carbon credits\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"true\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Gallery\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"Good position in category\"",
+                  "offset": 66
+                }
+              ],
+              "location": "TestCases.GetAPIRequestTest.validate_using_name_and_and_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-13T13:01:02.315Z",
+        "line": 10,
+        "name": "Send and Validate GET API Request",
+        "description": "",
+        "id": "validate-getapi-request;send-and-validate-get-api-request;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 289549700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Send GET API Request",
+            "match": {
+              "location": "TestCases.GetAPIRequestTest.send_get_api_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7000100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check if the response is successfull",
+            "match": {
+              "location": "TestCases.GetAPIRequestTest.check_if_the_response_is_successfull()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c0\u003e but was:\u003c1\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:647)\r\n\tat org.junit.Assert.assertEquals(Assert.java:633)\r\n\tat TestCases.GetAPIRequestTest.validate_using_name_and_and_and(GetAPIRequestTest.java:27)\r\n\tat ✽.Validate using Name \"Carbon credits\" and \"true\" and \"Gallery\" and \"Good Positionincompany\"(file:///C:/Users/rrvij/eclipse-workspace/APITest/Feature/ValidateGetAPI.feature:6)\r\n",
+              "duration": 2998400,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate using Name \"Carbon credits\" and \"true\" and \"Gallery\" and \"Good Positionincompany\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Carbon credits\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"true\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Gallery\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"Good Positionincompany\"",
+                  "offset": 66
+                }
+              ],
+              "location": "TestCases.GetAPIRequestTest.validate_using_name_and_and_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-13T13:01:02.633Z",
+        "line": 11,
+        "name": "Send and Validate GET API Request",
+        "description": "",
+        "id": "validate-getapi-request;send-and-validate-get-api-request;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 215251800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Send GET API Request",
+            "match": {
+              "location": "TestCases.GetAPIRequestTest.send_get_api_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4999700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check if the response is successfull",
+            "match": {
+              "location": "TestCases.GetAPIRequestTest.check_if_the_response_is_successfull()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate using Name \"Carbon credits\" and \"true\" and \"Gallery\" and \"Better position in category\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Carbon credits\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"true\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Gallery\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"Better position in category\"",
+                  "offset": 66
+                }
+              ],
+              "location": "TestCases.GetAPIRequestTest.validate_using_name_and_and_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-13T13:01:02.865Z",
+        "line": 12,
+        "name": "Send and Validate GET API Request",
+        "description": "",
+        "id": "validate-getapi-request;send-and-validate-get-api-request;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 217001600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Send GET API Request",
+            "match": {
+              "location": "TestCases.GetAPIRequestTest.send_get_api_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4007100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check if the response is successfull",
+            "match": {
+              "location": "TestCases.GetAPIRequestTest.check_if_the_response_is_successfull()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c0\u003e but was:\u003c1\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:647)\r\n\tat org.junit.Assert.assertEquals(Assert.java:633)\r\n\tat TestCases.GetAPIRequestTest.validate_using_name_and_and_and(GetAPIRequestTest.java:27)\r\n\tat ✽.Validate using Name \"Carbon debits\" and \"true\" and \"Gallery\" and \"Better position in category\"(file:///C:/Users/rrvij/eclipse-workspace/APITest/Feature/ValidateGetAPI.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Validate using Name \"Carbon debits\" and \"true\" and \"Gallery\" and \"Better position in category\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Carbon debits\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"true\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Gallery\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Better position in category\"",
+                  "offset": 65
+                }
+              ],
+              "location": "TestCases.GetAPIRequestTest.validate_using_name_and_and_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-13T13:01:03.092Z",
+        "line": 13,
+        "name": "Send and Validate GET API Request",
+        "description": "",
+        "id": "validate-getapi-request;send-and-validate-get-api-request;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 211278000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Send GET API Request",
+            "match": {
+              "location": "TestCases.GetAPIRequestTest.send_get_api_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4997800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check if the response is successfull",
+            "match": {
+              "location": "TestCases.GetAPIRequestTest.check_if_the_response_is_successfull()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate using Name \"Carbon credits\" and \"true\" and \"Gallery\" and \"Lowest position in category\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Carbon credits\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"true\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Gallery\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"Lowest position in category\"",
+                  "offset": 66
+                }
+              ],
+              "location": "TestCases.GetAPIRequestTest.validate_using_name_and_and_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-13T13:01:03.317Z",
+        "line": 14,
+        "name": "Send and Validate GET API Request",
+        "description": "",
+        "id": "validate-getapi-request;send-and-validate-get-api-request;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 259418600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Send GET API Request",
+            "match": {
+              "location": "TestCases.GetAPIRequestTest.send_get_api_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3961000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check if the response is successfull",
+            "match": {
+              "location": "TestCases.GetAPIRequestTest.check_if_the_response_is_successfull()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate using Name \"Carbon credits\" and \"true\" and \"Gallery\" and \"Best position in category \nIncludes benefits of Feature \nHighlights listing in search results\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Carbon credits\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"true\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Gallery\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"Best position in category \nIncludes benefits of Feature \nHighlights listing in search results\"",
+                  "offset": 66
+                }
+              ],
+              "location": "TestCases.GetAPIRequestTest.validate_using_name_and_and_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate getAPI request",
+    "description": "",
+    "id": "validate-getapi-request",
+    "keyword": "Feature",
+    "uri": "file:Feature/ValidateGetAPI.feature",
+    "tags": []
+  }
+]

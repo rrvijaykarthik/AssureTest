@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="2" name="RunnerClass.TestRunner" time="3.936" errors="0" skipped="0">
+  <properties>
+    <property name="jansi.mode" value="strip"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.4+8"/>
+    <property name="sun.boot.library.path" value="C:\Users\rrvij\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\rrvij\eclipse-workspace\APITest"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\rrvij\eclipse-workspace\APITest"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.4+8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\rrvij\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Users\rrvij\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2160969396888469810.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\rrvij\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Users/rrvij/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/rrvij/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Users\rrvij\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.2\bin;;C:\Users\rrvij\OneDrive\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\rrvij"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="rrvij"/>
+    <property name="java.class.path" value="C:\Users\rrvij\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.home" value="C:\Users\rrvij\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.4"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="C:\Users\rrvij\eclipse-workspace\APITest\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.4+8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Validate getAPI request" name="Send and Validate GET API Request #1" time="2.661"/>
+  <testcase classname="Validate getAPI request" name="Send and Validate GET API Request #2" time="0.269">
+    <failure message="expected:&lt;0&gt; but was:&lt;1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;1&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at TestCases.GetAPIRequestTest.validate_using_name_and_and_and(GetAPIRequestTest.java:27)
+	at ✽.Validate using Name &quot;Carbon credits&quot; and &quot;true&quot; and &quot;Gallery&quot; and &quot;Good Positionincompany&quot;(file:///C:/Users/rrvij/eclipse-workspace/APITest/Feature/ValidateGetAPI.feature:6)
+</failure>
+    <system-out>{
+    &quot;CategoryId&quot;: 6327,
+    &quot;Name&quot;: &quot;Carbon credits&quot;,
+    &quot;Path&quot;: &quot;/Business-farming-industry/Carbon-credits&quot;,
+    &quot;CanListAuctions&quot;: true,
+    &quot;CanListClassifieds&quot;: true,
+    &quot;CanRelist&quot;: true,
+    &quot;LegalNotice&quot;: &quot;Compliance Declaration\nI confirm that these carbon credits are certified and registered with a carbon credits registry. &quot;,
+    &quot;DefaultDuration&quot;: 14,
+    &quot;AllowedDurations&quot;: [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        14
+    ],
+    &quot;Fees&quot;: {
+        &quot;Bundle&quot;: 15.0000,
+        &quot;EndDate&quot;: 0.2500,
+        &quot;Feature&quot;: 10.0000,
+        &quot;Gallery&quot;: 2.0000,
+        &quot;Listing&quot;: 29.0000,
+        &quot;Reserve&quot;: 0.2500,
+        &quot;Subtitle&quot;: 0.5500,
+        &quot;TenDays&quot;: 0.2500,
+        &quot;ListingFeeTiers&quot;: [
+            {
+                &quot;MinimumTierPrice&quot;: 0,
+                &quot;FixedFee&quot;: 29.00
+            }
+        ],
+        &quot;SecondCategory&quot;: 0.9900
+    },
+    &quot;FreePhotoCount&quot;: 20,
+    &quot;MaximumPhotoCount&quot;: 20,
+    &quot;IsFreeToRelist&quot;: true,
+    &quot;Promotions&quot;: [
+        {
+            &quot;Id&quot;: 1,
+            &quot;Name&quot;: &quot;Basic&quot;,
+            &quot;Description&quot;: &quot;Lowest position in category&quot;,
+            &quot;Price&quot;: 0.0000,
+            &quot;MinimumPhotoCount&quot;: 0
+        },
+        {
+            &quot;Id&quot;: 2,
+            &quot;Name&quot;: &quot;Gallery&quot;,
+            &quot;Description&quot;: &quot;Good position in category&quot;,
+            &quot;Price&quot;: 2.0000,
+            &quot;OriginalPrice&quot;: 2.0000,
+            &quot;MinimumPhotoCount&quot;: 0
+        },
+        {
+            &quot;Id&quot;: 3,
+            &quot;Name&quot;: &quot;Feature&quot;,
+            &quot;Description&quot;: &quot;Better position in category&quot;,
+            &quot;Price&quot;: 10.0000,
+            &quot;OriginalPrice&quot;: 10.0000,
+            &quot;Recommended&quot;: true,
+            &quot;MinimumPhotoCount&quot;: 0
+        },
+        {
+            &quot;Id&quot;: 4,
+            &quot;Name&quot;: &quot;Feature Combo&quot;,
+            &quot;Description&quot;: &quot;Best position in category \nIncludes benefits of Feature \nHighlights listing in search results&quot;,
+            &quot;Price&quot;: 15.0000,
+            &quot;OriginalPrice&quot;: 15.0000,
+            &quot;MinimumPhotoCount&quot;: 0
+        }
+    ],
+    &quot;EmbeddedContentOptions&quot;: [
+        
+    ],
+    &quot;MaximumTitleLength&quot;: 80,
+    &quot;AreaOfBusiness&quot;: 1,
+    &quot;DefaultRelistDuration&quot;: 7,
+    &quot;CanUseCounterOffers&quot;: true
+}
+{
+    &quot;CategoryId&quot;: 6327,
+    &quot;Name&quot;: &quot;Carbon credits&quot;,
+    &quot;Path&quot;: &quot;/Business-farming-industry/Carbon-credits&quot;,
+    &quot;CanListAuctions&quot;: true,
+    &quot;CanListClassifieds&quot;: true,
+    &quot;CanRelist&quot;: true,
+    &quot;LegalNotice&quot;: &quot;Compliance Declaration\nI confirm that these carbon credits are certified and registered with a carbon credits registry. &quot;,
+    &quot;DefaultDuration&quot;: 14,
+    &quot;AllowedDurations&quot;: [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        14
+    ],
+    &quot;Fees&quot;: {
+        &quot;Bundle&quot;: 15.0000,
+        &quot;EndDate&quot;: 0.2500,
+        &quot;Feature&quot;: 10.0000,
+        &quot;Gallery&quot;: 2.0000,
+        &quot;Listing&quot;: 29.0000,
+        &quot;Reserve&quot;: 0.2500,
+        &quot;Subtitle&quot;: 0.5500,
+        &quot;TenDays&quot;: 0.2500,
+        &quot;ListingFeeTiers&quot;: [
+            {
+                &quot;MinimumTierPrice&quot;: 0,
+                &quot;FixedFee&quot;: 29.00
+            }
+        ],
+        &quot;SecondCategory&quot;: 0.9900
+    },
+    &quot;FreePhotoCount&quot;: 20,
+    &quot;MaximumPhotoCount&quot;: 20,
+    &quot;IsFreeToRelist&quot;: true,
+    &quot;Promotions&quot;: [
+        {
+            &quot;Id&quot;: 1,
+            &quot;Name&quot;: &quot;Basic&quot;,
+            &quot;Description&quot;: &quot;Lowest position in category&quot;,
+            &quot;Price&quot;: 0.0000,
+            &quot;MinimumPhotoCount&quot;: 0
+        },
+        {
+            &quot;Id&quot;: 2,
+            &quot;Name&quot;: &quot;Gallery&quot;,
+            &quot;Description&quot;: &quot;Good position in category&quot;,
+            &quot;Price&quot;: 2.0000,
+            &quot;OriginalPrice&quot;: 2.0000,
+            &quot;MinimumPhotoCount&quot;: 0
+        },
+        {
+            &quot;Id&quot;: 3,
+            &quot;Name&quot;: &quot;Feature&quot;,
+            &quot;Description&quot;: &quot;Better position in category&quot;,
+            &quot;Price&quot;: 10.0000,
+            &quot;OriginalPrice&quot;: 10.0000,
+            &quot;Recommended&quot;: true,
+            &quot;MinimumPhotoCount&quot;: 0
+        },
+        {
+            &quot;Id&quot;: 4,
+            &quot;Name&quot;: &quot;Feature Combo&quot;,
+            &quot;Description&quot;: &quot;Best position in category \nIncludes benefits of Feature \nHighlights listing in search results&quot;,
+            &quot;Price&quot;: 15.0000,
+            &quot;OriginalPrice&quot;: 15.0000,
+            &quot;MinimumPhotoCount&quot;: 0
+        }
+    ],
+    &quot;EmbeddedContentOptions&quot;: [
+        
+    ],
+    &quot;MaximumTitleLength&quot;: 80,
+    &quot;AreaOfBusiness&quot;: 1,
+    &quot;DefaultRelistDuration&quot;: 7,
+    &quot;CanUseCounterOffers&quot;: true
+}
+Carbon credits
+Description: &quot;Good position in category&quot;
+Description: java.util.ArrayList$Itr@37d3e140
+Vijay: &quot;Lowest position in category&quot;
+Vijay: &quot;Good position in category&quot;
+Vijay: &quot;Better position in category&quot;
+Vijay: &quot;Best position in category \nIncludes benefits of Feature \nHighlights listing in search results&quot;
+c Gallery
+</system-out>
+  </testcase>
+  <testcase classname="Validate getAPI request" name="Send and Validate GET API Request #3" time="0.235"/>
+  <testcase classname="Validate getAPI request" name="Send and Validate GET API Request #4" time="0.236">
+    <failure message="expected:&lt;0&gt; but was:&lt;1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;1&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at TestCases.GetAPIRequestTest.validate_using_name_and_and_and(GetAPIRequestTest.java:27)
+	at ✽.Validate using Name &quot;Carbon debits&quot; and &quot;true&quot; and &quot;Gallery&quot; and &quot;Better position in category&quot;(file:///C:/Users/rrvij/eclipse-workspace/APITest/Feature/ValidateGetAPI.feature:6)
+</failure>
+    <system-out>{
+    &quot;CategoryId&quot;: 6327,
+    &quot;Name&quot;: &quot;Carbon credits&quot;,
+    &quot;Path&quot;: &quot;/Business-farming-industry/Carbon-credits&quot;,
+    &quot;CanListAuctions&quot;: true,
+    &quot;CanListClassifieds&quot;: true,
+    &quot;CanRelist&quot;: true,
+    &quot;LegalNotice&quot;: &quot;Compliance Declaration\nI confirm that these carbon credits are certified and registered with a carbon credits registry. &quot;,
+    &quot;DefaultDuration&quot;: 14,
+    &quot;AllowedDurations&quot;: [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        14
+    ],
+    &quot;Fees&quot;: {
+        &quot;Bundle&quot;: 15.0000,
+        &quot;EndDate&quot;: 0.2500,
+        &quot;Feature&quot;: 10.0000,
+        &quot;Gallery&quot;: 2.0000,
+        &quot;Listing&quot;: 29.0000,
+        &quot;Reserve&quot;: 0.2500,
+        &quot;Subtitle&quot;: 0.5500,
+        &quot;TenDays&quot;: 0.2500,
+        &quot;ListingFeeTiers&quot;: [
+            {
+                &quot;MinimumTierPrice&quot;: 0,
+                &quot;FixedFee&quot;: 29.00
+            }
+        ],
+        &quot;SecondCategory&quot;: 0.9900
+    },
+    &quot;FreePhotoCount&quot;: 20,
+    &quot;MaximumPhotoCount&quot;: 20,
+    &quot;IsFreeToRelist&quot;: true,
+    &quot;Promotions&quot;: [
+        {
+            &quot;Id&quot;: 1,
+            &quot;Name&quot;: &quot;Basic&quot;,
+            &quot;Description&quot;: &quot;Lowest position in category&quot;,
+            &quot;Price&quot;: 0.0000,
+            &quot;MinimumPhotoCount&quot;: 0
+        },
+        {
+            &quot;Id&quot;: 2,
+            &quot;Name&quot;: &quot;Gallery&quot;,
+            &quot;Description&quot;: &quot;Good position in category&quot;,
+            &quot;Price&quot;: 2.0000,
+            &quot;OriginalPrice&quot;: 2.0000,
+            &quot;MinimumPhotoCount&quot;: 0
+        },
+        {
+            &quot;Id&quot;: 3,
+            &quot;Name&quot;: &quot;Feature&quot;,
+            &quot;Description&quot;: &quot;Better position in category&quot;,
+            &quot;Price&quot;: 10.0000,
+            &quot;OriginalPrice&quot;: 10.0000,
+            &quot;Recommended&quot;: true,
+            &quot;MinimumPhotoCount&quot;: 0
+        },
+        {
+            &quot;Id&quot;: 4,
+            &quot;Name&quot;: &quot;Feature Combo&quot;,
+            &quot;Description&quot;: &quot;Best position in category \nIncludes benefits of Feature \nHighlights listing in search results&quot;,
+            &quot;Price&quot;: 15.0000,
+            &quot;OriginalPrice&quot;: 15.0000,
+            &quot;MinimumPhotoCount&quot;: 0
+        }
+    ],
+    &quot;EmbeddedContentOptions&quot;: [
+        
+    ],
+    &quot;MaximumTitleLength&quot;: 80,
+    &quot;AreaOfBusiness&quot;: 1,
+    &quot;DefaultRelistDuration&quot;: 7,
+    &quot;CanUseCounterOffers&quot;: true
+}
+{
+    &quot;CategoryId&quot;: 6327,
+    &quot;Name&quot;: &quot;Carbon credits&quot;,
+    &quot;Path&quot;: &quot;/Business-farming-industry/Carbon-credits&quot;,
+    &quot;CanListAuctions&quot;: true,
+    &quot;CanListClassifieds&quot;: true,
+    &quot;CanRelist&quot;: true,
+    &quot;LegalNotice&quot;: &quot;Compliance Declaration\nI confirm that these carbon credits are certified and registered with a carbon credits registry. &quot;,
+    &quot;DefaultDuration&quot;: 14,
+    &quot;AllowedDurations&quot;: [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        14
+    ],
+    &quot;Fees&quot;: {
+        &quot;Bundle&quot;: 15.0000,
+        &quot;EndDate&quot;: 0.2500,
+        &quot;Feature&quot;: 10.0000,
+        &quot;Gallery&quot;: 2.0000,
+        &quot;Listing&quot;: 29.0000,
+        &quot;Reserve&quot;: 0.2500,
+        &quot;Subtitle&quot;: 0.5500,
+        &quot;TenDays&quot;: 0.2500,
+        &quot;ListingFeeTiers&quot;: [
+            {
+                &quot;MinimumTierPrice&quot;: 0,
+                &quot;FixedFee&quot;: 29.00
+            }
+        ],
+        &quot;SecondCategory&quot;: 0.9900
+    },
+    &quot;FreePhotoCount&quot;: 20,
+    &quot;MaximumPhotoCount&quot;: 20,
+    &quot;IsFreeToRelist&quot;: true,
+    &quot;Promotions&quot;: [
+        {
+            &quot;Id&quot;: 1,
+            &quot;Name&quot;: &quot;Basic&quot;,
+            &quot;Description&quot;: &quot;Lowest position in category&quot;,
+            &quot;Price&quot;: 0.0000,
+            &quot;MinimumPhotoCount&quot;: 0
+        },
+        {
+            &quot;Id&quot;: 2,
+            &quot;Name&quot;: &quot;Gallery&quot;,
+            &quot;Description&quot;: &quot;Good position in category&quot;,
+            &quot;Price&quot;: 2.0000,
+            &quot;OriginalPrice&quot;: 2.0000,
+            &quot;MinimumPhotoCount&quot;: 0
+        },
+        {
+            &quot;Id&quot;: 3,
+            &quot;Name&quot;: &quot;Feature&quot;,
+            &quot;Description&quot;: &quot;Better position in category&quot;,
+            &quot;Price&quot;: 10.0000,
+            &quot;OriginalPrice&quot;: 10.0000,
+            &quot;Recommended&quot;: true,
+            &quot;MinimumPhotoCount&quot;: 0
+        },
+        {
+            &quot;Id&quot;: 4,
+            &quot;Name&quot;: &quot;Feature Combo&quot;,
+            &quot;Description&quot;: &quot;Best position in category \nIncludes benefits of Feature \nHighlights listing in search results&quot;,
+            &quot;Price&quot;: 15.0000,
+            &quot;OriginalPrice&quot;: 15.0000,
+            &quot;MinimumPhotoCount&quot;: 0
+        }
+    ],
+    &quot;EmbeddedContentOptions&quot;: [
+        
+    ],
+    &quot;MaximumTitleLength&quot;: 80,
+    &quot;AreaOfBusiness&quot;: 1,
+    &quot;DefaultRelistDuration&quot;: 7,
+    &quot;CanUseCounterOffers&quot;: true
+}
+Carbon credits
+Description: &quot;Good position in category&quot;
+Description: java.util.ArrayList$Itr@103c97ff
+Vijay: &quot;Lowest position in category&quot;
+Vijay: &quot;Good position in category&quot;
+Vijay: &quot;Better position in category&quot;
+Vijay: &quot;Best position in category \nIncludes benefits of Feature \nHighlights listing in search results&quot;
+c Gallery
+proDescription Karthik is Better position in category
+</system-out>
+  </testcase>
+  <testcase classname="Validate getAPI request" name="Send and Validate GET API Request #5" time="0.232"/>
+  <testcase classname="Validate getAPI request" name="Send and Validate GET API Request #6" time="0.303"/>
+</testsuite>
